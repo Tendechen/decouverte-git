@@ -1,0 +1,53 @@
+git 
+
+Versionning(incrémental) 4 questions : 
+- quel fichier 
+- qui l'a modifié 
+- quand 
+- pourquoi 
+
+=> outil qui rentre dans le Flux de Travail => dès que vous avez fini une fontionnalité 
+
+Ligne de commande => windows exploteur 
+cmd lancer le terminal dans le dossier que l'on veut versionner 
+
+cd => change directory 
+
+git init 
+créer le repository dans le dossier .git (dossier caché)
+git add <nom-fichier>
+git commit -m "pourquoi ??"
+
+git branch <nom de branch> => créer une branche à partir du commit en cours 
+
+git checkout master => revenir maintenir 
+git checkout <numéro de commit> => revenir dans le passé 
+git checkout <nom de branch > => se mettre sur une brache 
+
+gitk 
+git log -- online => récupérer les numéros de commit 
+
+---------------
+
+git brach page-blog 
+git checkout page-blog 
+
+git branch -M balbla => permet de changer le nom de la branch en cours 
+
+git branch -M --help 
+
+git branch 
+
+git add index.html blog.html
+git add --all
+git add .
+git add -A
+git add *
+
+git add ---all
+git commit -m "fin de la page blog"
+git checkout master 
+git merge page-blog 
+cls 
+git branch -D page-blog 
+

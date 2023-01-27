@@ -1,0 +1,25 @@
+--travailler avec sur un projet 
+--reposity = dépôt => dossier dans lequel git va stocker l'évolution de votre projet 
+
+--lancer explorer windows 
+--aller dans le dossier qui contient mon projet 
+--barre d'adresse de l'explorer => cmd au début de l'adresse (path) Espace Enter 
+--ouvrir un terminal dans le dossier C://Users/stagiaire/Desktop/git>
+
+=> lancer un terminal à la racine de notre projet 
+=> dossier root de notre projet 
+
+=> git init 
+Initialized empty Git repository in C:/Users/stagiaire/.git/
+créer un repository => dossier qui va contenir le versionning mon projet 
+
+=> Dans ce dossier quel versionning est réalisé 
+=> ne pas écrire dans ce fichier 
+=> c'est via la terminal que l'on va réaliser 
+=> attention le dossier .git n'existe QUE dans les dossiers lesquels vous avez réaliser git init 
+
+=> suivre mon travail avec git 
+
+=>git add index.html 
+=> git commit -m "création de la barre de menu avec bootstrap"
+
